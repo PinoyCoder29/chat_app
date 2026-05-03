@@ -67,7 +67,10 @@ export default function login() {
                 <div className="mb-3 text-end">
                   <span className="">
                     Don't have an account?
-                    <a href="/auth/signup" className="text-decoration-none">
+                    <a
+                      href="/auth/signup"
+                      className="text-decoration-none ms-1"
+                    >
                       Sign Up
                     </a>
                   </span>
